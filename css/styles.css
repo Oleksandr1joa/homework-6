@@ -524,8 +524,14 @@ padding-top:  32px;
 .footer-text {
     max-width: 264px;
 }
-.footer-item-text {
-    color: #FFFFFF;   
+.footer-item-text { 
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
 }
 .footer-list {
     display: flex;
@@ -551,6 +557,78 @@ padding-top:  32px;
 .footer-social-list-link:focus {
     background-color: #31D0AA;
 }
+.footer-modal {
+    display: flex;    
+margin-left: 80px;
+}
+.footer-modal-button {
+    margin-left: 24px;
+    background: #4D5AE5;
+border-radius: 4px;
+width: 165px;
+height: 40px;
+border: 1px transparent;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.footer-modal-icon {
+    fill: #bd6767;
+    margin-left: 16px;
+}
+
+.footer-modal-mesage-input {
+    position: relative;
+}
+.footer-modal-mail {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 24px;
+display: flex;
+align-items: center;
+letter-spacing: 0.04em;
+color: rgba(255, 255, 255, 0.6);
+}
+.footer-modal-input {
+    padding-left: 16px;
+    width: 264px;
+    height: 40px;
+    background-color: transparent;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+.footer-modal-input:focus {
+    outline: none;
+    border-color: #4D5AE5;
+    transition: border 250ms
+}
+
+.footer-modal-text {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+.footer-modal-icon {
+    background: #FFFFFF;
+}
+
 /*======================/FOOTER===========================*/
 /*======================MODAL WINDOW===========================*/
 .backdrop {
@@ -723,12 +801,19 @@ top: 584px;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
-display: flex;
-justify-content: center;
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 color: #FFFFFF;
+}
+.modal-form button {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.modal-form-btn {
+    justify-content: center;
+    align-items: center;
+    display: flex;
 }
 /* 
 .modal-form-check-desk::before {
