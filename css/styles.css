@@ -578,7 +578,7 @@ letter-spacing: 0.04em;
 color: #FFFFFF;
 }
 .footer-modal-icon {
-    fill: #bd6767;
+    fill: #FFFFFF;
     margin-left: 16px;
 }
 
@@ -624,9 +624,6 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
-}
-.footer-modal-icon {
-    background: #FFFFFF;
 }
 
 /*======================/FOOTER===========================*/
