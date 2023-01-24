@@ -275,6 +275,12 @@ border: 1px solid #E7E9FC;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px
 }
+.btn-range {
+    text-align: center;    
+    display: block;
+    margin: auto;
+    margin-top: 48px;
+}
 
 .btn-portfolio {
     display: flex;
@@ -304,12 +310,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px
 border-radius: 4px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.btn-range {
-    text-align: center;    
-    display: block;
-    margin: auto;
-    margin-top: 48px;
-}
+
 
 .modal-btn:hover,
 .modal-btn:focus {
@@ -436,6 +437,7 @@ color: #F4F4FD;
 background-blend-mode: soft-light;
 mix-blend-mode: normal;
 }
+/*=====схавати щось==*/
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -448,6 +450,7 @@ mix-blend-mode: normal;
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+/*=====/схавати щось==*/
 .container-app {
     display: flex;
     flex-wrap: wrap;    
@@ -681,4 +684,67 @@ border-radius: 4px;
     border-color: #4D5AE5;
     transition: border 250ms
 }
+
+.modal-form-check-square {
+    width: 16px;
+height: 16px;
+border: 1.25px solid #2E2F42;
+border-radius: 2px;
+cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 8px;
+}
+.check-icon {
+    fill: #F4F4FD;
+}
+.modal-form-check-desk {
+    display: flex;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+letter-spacing: 0.04em;
+color: #757575;
+cursor: pointer;
+padding-bottom: 24px;
+}
+.modal-form-check:checked + .modal-form-check-desk span {
+background-color: #4D5AE5;
+background-repeat: no-repeat;
+}
+.modal-form-submit {
+    width: 169px;
+height: 56px;
+left: 635px;
+top: 584px;
+background: #4D5AE5;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+/* 
+.modal-form-check-desk::before {
+display: block;
+    content: '';
+    width: 16px;
+height: 16px;
+border: 1.25px solid #2E2F42;
+border-radius: 2px;
+cursor: pointer;
+}
+.modal-form-check:checked + .modal-form-check-desk::before {
+background-color: #4D5AE5;
+background-repeat: no-repeat;
+background-image: url(../images/check.svg);
+background-position: center;
+} */
+
 /*======================/MODAL FORM===========================*/

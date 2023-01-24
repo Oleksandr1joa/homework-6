@@ -431,9 +431,17 @@
                 <span class="modal-form-text">Comment</span>
               <textarea class="modal-form-message"
               name="user-text-input" id=""
-              placeholder="Text input"></textarea>
-              <input id="user-policy" type="checkbox" class="modal-form-check">
-              <label for="user-policy" class="modal-form-check-desk">I accept the terms and conditions of the <a href="">Privacy Policy</a> </label>
+              placeholder="Text input">
+            </textarea>
+              <input id="user-policy" type="checkbox" class="modal-form-check visually-hidden">
+                <label for="user-policy" class="modal-form-check-desk">
+                <span class="modal-form-check-square">
+                <svg class="check-icon" width="10" height="8">
+                <use href="./images/sprite.svg#icon-check"></use>
+              </svg>
+              </span>
+                I accept the terms and conditions of the <a href="">Privacy Policy</a> 
+              </label>
               </label>
             <button type="submit" class="modal-form-submit">Send</button>
           </form>
