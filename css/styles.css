@@ -561,7 +561,11 @@ color: #FFFFFF;
     display: flex;    
 margin-left: 80px;
 }
-.footer-modal-button {
+.footer-modal-btn {
+    display: inline;
+    
+}
+.footer-modal-button {    
     margin-left: 24px;
     background: #4D5AE5;
 border-radius: 4px;
@@ -581,9 +585,12 @@ color: #FFFFFF;
     fill: #FFFFFF;
     margin-left: 16px;
 }
+.footer-modal-mesage {
+    display: flex;
+}
 
 .footer-modal-mesage-input {
-    position: relative;
+    position: relative;    
 }
 .footer-modal-mail {
     position: absolute;
@@ -624,6 +631,7 @@ line-height: 24px;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 16px;
+
 }
 
 /*======================/FOOTER===========================*/
