@@ -247,6 +247,9 @@ border-radius: 4px;
 
 .list-bord-scroll {
     margin-top: 72px;
+    background: #FFFFFF;
+box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+border-radius: 0px 0px 4px 4px;
 }
 .con-box {
 padding-top:  32px;
@@ -285,7 +288,6 @@ border-radius: 4px
 .btn-portfolio {
     display: flex;
     background: #F4F4FD;
-border: 1px solid #E7E9FC;
 border-radius: 4px;
 background-color: transparent;
 justify-content: center;
@@ -696,6 +698,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #2E2F42;
 padding-bottom: 14px;
+text-align: center;
 }
 
 .modal-form-text {
@@ -772,6 +775,9 @@ flex-grow: 0;
     padding:  8px 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
 }
 .modal-form-message:focus {
     outline: none;
@@ -804,6 +810,7 @@ letter-spacing: 0.04em;
 color: #757575;
 cursor: pointer;
 padding-bottom: 24px;
+padding-top: 16px;
 }
 .modal-form-check:checked + .modal-form-check-desk span {
 background-color: #4D5AE5;
