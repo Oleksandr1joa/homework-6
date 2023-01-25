@@ -607,6 +607,7 @@ align-items: center;
 letter-spacing: 0.04em;
 color: rgba(255, 255, 255, 0.6);
 }
+
 .footer-modal-input {
     padding-left: 16px;
     width: 264px;
@@ -615,6 +616,8 @@ color: rgba(255, 255, 255, 0.6);
 border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
+color: #FFFFFF;
+
 }
 .footer-modal-input:focus {
     outline: none;
@@ -646,7 +649,6 @@ margin-bottom: 16px;
     
 }
 .modal {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -660,7 +662,6 @@ padding-top: 72px;
 padding-left: 24px;
 padding-bottom: 24px;
 padding-right: 24px;
-
 }
 
 .modal-close {
@@ -671,6 +672,13 @@ top: 24px;
     background: #E7E9FC;
 border: 1px solid rgba(0, 0, 0, 0.1);
 }
+.modal-close:focus, 
+.modal-close:hover {
+
+background: #4D5AE5;
+fill: #FFFFFF;
+transition: 250ms;
+} 
 
 /*======================/MODAL WINDOW===========================*/
 /*======================MODAL FORM===========================*/
@@ -705,7 +713,7 @@ margin-bottom: 4px;
     display: flex;
     flex-direction: column;
 }
-.modal-form-file{
+.modal-form-file {
 margin-bottom: 8px;
 }
 
@@ -715,12 +723,18 @@ margin-bottom: 8px;
     padding-left: 38px;
 border: 1px solid rgba(33, 33, 33, 0.2);
 border-radius: 4px;
-    transition: border 250ms;
-}
-.modal-form-input:focus {
-    border: 1px solid #4D5AE5;
-border-radius: 4px;
 outline: none;
+}
+
+.modal-form-input:focus {
+    outline: none;
+    border-color:  #4D5AE5;
+border-radius: 4px;
+    transition: border 250ms
+}
+.chek-link {
+    margin-left: 4px;
+    color: #4D5AE5;
 }
 
 .modal-form-input:focus + .modal-form-icon {
@@ -805,6 +819,7 @@ left: 635px;
 top: 584px;
 background: #4D5AE5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border: 1px solid #E7E9FC;
 border-radius: 4px;
 text-align: center;
 letter-spacing: 0.04em;
