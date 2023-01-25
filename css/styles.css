@@ -522,7 +522,7 @@ padding-top:  32px;
     }
 
 .footer-text {
-    max-width: 264px;
+    width: 264px;
 }
 .footer-item-text { 
     font-family: 'Roboto';
@@ -764,10 +764,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
-.modal-form-input-wraper:hover,
-.modal-form-input-wraper:focus {
-    background: #4D5AE5;
-}
+
 .modal-form-message {
     resize: none;
     width: 100%;
